@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Figma</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway&display=swap" rel="stylesheet">
+    <style>
+         .first-item-content{
+            position: absolute;
+            max-width: 1170px; height: 541px;
+            border: 1px solid #C6CBCD;
+            border-top: none;
+            border-right: none;
+        }
+        .first-tab{
+            width: 203px;
+            height: 40px;
+            border: 1px solid #C6CBCD;
+            border-radius: 5px 5px 0px 0px;
+            border-bottom: none;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+        }
+        .second-tab{
+            width: 295px;
+            height: 40px;
+            border: 1px solid #C6CBCD;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            margin: -40px 0 0 205px;
+        }
+        .third-tab{
+            width: 295px;
+            height: 40px;
+            border: 1px solid #C6CBCD;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            margin: -41px 0 0 405px;
+        }
+        .big-text-item{
+            position: absolute;  
+            width: 570px; height: 124px;
+            padding: 50px 500px 376px 100px;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 41px;
+        }
+        .small-text-item{
+            position: absolute;
+            width: 570px; height: 210px;
+            padding: 152px 500px 139px 100px;
+            margin: 0 0 27px 0;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        .button-item-text{
+            color: #ffffff;
+            text-align: center;
+            background: #EC7979;
+            font-size: 18px;
+            margin: 389px 800px 54px 100px;
+            width: 270px; height: 58px;
+            align-items: center;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            display: block;
+        }
+        .statue-image{
+            position: absolute;
+            padding: 0 0 0 700px;
+            width: 470px; height: 500px;
+        } 
+        .line-item{
+            width: 170px; height: 0;
+            margin: 250px 550px;
+            position: absolute;
+            border: 1px solid #EC7979;
+        }
+        .title-item{
+            width: 1170px; height: 150px;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            margin: 200px 0 515px 50px;
+        }
+        .small-second-item{
+            width: 1169px; height: 21px;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            margin: -520px 0 0 50px;
+            text-align: center;
+            color: #86878B;
+        }
+        .content-box{
+            display: flex;
+            flex-direction: column;
+            vertical-align: middle;
+            text-align: center;
+            width: 1170px;
+            height: 665px;
+        }
+        .box-lamp{
+            display: flex;
+            flex-direction: column;
+        }
+        .lamp-image{
+            margin: 71px 939px 0 145px;
+            width: 170px; height: 170px;
+        }
+        .big-box-lamp{
+            width: 369px; height: 100px;
+            margin: 0 800px 0 120px;
+            text-align: center;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .small-box-lamp{
+            width: 370px; height: 105px;
+            align-items: center;
+            text-align: center;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            display: flex;
+            margin: 8px 800px 0 60px;
+            font-family: 'Raleway', sans-serif;
+        }
+        .box-keyboard{
+            display: flex;
+            flex-direction: column;
+        }
+        .keyboard-image{
+            margin: -385px 552px 0 550px;
+            width: 170px; height: 170px;
+        }
+        .big-box-keyboard{
+            width: 369px; height: 100px;
+            margin: 0 800px 0 525px;
+            text-align: center;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .small-box-keyboard{
+            width: 370px; height: 105px;
+            align-items: center;
+            text-align: center;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            display: flex;
+            margin: 8px 800px 0 465px;
+            font-family: 'Raleway', sans-serif;
+        }
+        .box-lightning{
+            display: flex;
+            flex-direction: column;
+        }
+        .lightning-image{
+            margin: -385px 139px 0 950px;
+            width: 170px; height: 170px;
+        }
+        .big-box-lightning{
+            width: 369px; height: 100px;
+            margin: 0 800px 0 925px;
+            text-align: center;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .small-box-lightning{
+            width: 370px; height: 105px;
+            align-items: center;
+            text-align: center;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            display: flex;
+            margin: 8px 800px 0 870px;
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="first-item-content">
+            <div class="tabs-content">
+                <div class="first-tab">TAB 1</div>
+                <div class="second-tab">TAB 2</div>
+                <div class="third-tab">TAB 3</div>
+            </div>
+            <div class="big-text-item">Tabs with soft transitioning effect.</div>
+            <div class="small-text-item"> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br />
+                euismod<br /> 
+                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et<br />
+                viverra<br /> 
+                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque<br /> 
+                penatibus et magnis dis parturient montes.<br />
+                <br />    
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br /> 
+                euismod<br /> 
+                bibendum laoreet.</div>
+                <div class="statue-image" >
+                <img src="statue.svg"> </div>
+            <div class="button-item-text">Download</div> 
+            <div class="line-item"></div>
+                <div class="title-item">WHY THIS IS AWESOME </div>
+                <div class="small-second-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="content-box">
+                    <div class="box-lamp">
+                            <div class="lamp-image">
+                            <img src="lamp.svg">
+                            </div>
+                            <div class="big-box-lamp">Thoughtful Design</div>
+                            <div class="small-box-lamp">Lorem ipsum dolor sit amet, consectetur<br /> 
+                            adipiscing<br />
+                            elit. Aenean euismod bibendum laoreet.<br />
+                            Proin gravida  dolor sit amet lacus<br /> 
+                            accumsan et viverra.</div>
+                    </div>
+                        <div class="box-keyboard"></div>
+                            <div class="keyboard-image">
+                            <img src="keyboard.svg">
+                            </div>
+                            <div class="big-box-keyboard">Thoughtful Design</div>
+                            <div class="small-box-keyboard">Lorem ipsum dolor sit amet, consectetur<br /> 
+                            adipiscing<br />
+                            elit. Aenean euismod bibendum laoreet.<br />
+                            Proin gravida  dolor sit amet lacus<br /> 
+                            accumsan et viverra.</div>
+                        <div class="box-lightning"></div>
+                            <div class="lightning-image">
+                            <img src="lightning.svg">
+                            </div>
+                            <div class="big-box-lightning">Thoughtful Design</div>
+                            <div class="small-box-lightning">Lorem ipsum dolor sit amet, consectetur<br /> 
+                            adipiscing<br />
+                            elit. Aenean euismod bibendum laoreet.<br />
+                            Proin gravida  dolor sit amet lacus<br /> 
+                            accumsan et viverra.</div>
+                </div>
+        </div> 
+        </div>       
+    </body>
+</html>
